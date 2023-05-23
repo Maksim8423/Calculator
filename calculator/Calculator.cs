@@ -2,9 +2,12 @@
 {
     internal class Calculator
     {
+        private double A,B;
+        public Calculator(double a, double b) 
+        {
+            this.A = a; this.B = b;
+        }
 
-        public double A { get; set; }
-        public double B { get; set; }
 
         public double Plus()
         {
